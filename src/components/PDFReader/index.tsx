@@ -3,7 +3,7 @@ import * as CSSModules from "react-css-modules";
 import * as styles from "./index.less";
 import * as pdfjsLib from "pdfjs-dist";
 // The workerSrc property shall be specified.
-pdfjsLib.GlobalWorkerOptions.workerSrc = "//mozilla.github.io/pdf.js/build/pdf.worker.js";
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https://mozilla.github.io/pdf.js/build/pdf.worker.js";
 // the default params
 const DEFAULT_DESIRE_WIDTH = 980;
 const DEFAULT_SCALE = 1;
